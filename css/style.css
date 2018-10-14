@@ -140,3 +140,22 @@ footer p {
         top:0;
     }
 }
+
+@media(max-height:400px){
+    .header-content .text{
+        display:none;
+    }
+
+    .header-content {
+        margin-top: 10%;
+    }
+
+    .header-content .logo {
+        width: 120px;
+        height: 120px;
+    }
+
+    .header-content .title {
+        margin-top: 10%;
+    }
+}
